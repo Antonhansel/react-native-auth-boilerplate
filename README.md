@@ -32,7 +32,7 @@ Make sure to have [hasura CLI](https://docs.hasura.io/0.15/manual/install-hasura
 - Clone the repo and `cd` into it.
 
   ```bash
-  $ git clone git@github.com:hasura/react-native-auth-boilerplate
+  $ git clone https://github.com/hasura/react-native-auth-boilerplate
   ```
 
 - `cd` into expo directory if you wish to use the expo SDK or `cd` into vanilla directory
@@ -78,6 +78,7 @@ Make sure to have [hasura CLI](https://docs.hasura.io/0.15/manual/install-hasura
     $ react-native run-ios
     ```
 
+> To get started with React Native development using Hasura, head to [hasura/hello-react-native](https://hasura.io/hub/projects/hasura/hello-react-native/) on [Hasura hub](https://hasura.io/hub).
 
 ### Without Hasura APIs
 
