@@ -189,6 +189,8 @@ $ git commit -m "Made changes to conf"
 $ git push hasura master
 ```
 
+*Disclaimer: The Emails are sent using [Hasura Test Provider](https://docs.hasura.io/0.15/manual/notify/email/hasura-test-provider.html). Before going into production, you will have to [configure SparkPost](https://docs.hasura.io/0.15/manual/notify/email/sparkpost.html) or [ configure SMTP](https://docs.hasura.io/0.15/manual/notify/email/smtp.html) in `conf/auth.yaml`.*
+
 #### Without Hasura APIs
 
 1. Open `Hasura.js`
@@ -244,6 +246,10 @@ $ git add .
 $ git commit -m "Made changes to the conf"
 $ git push hasura master
 ```
+
+
+*Disclaimer: The SMS are sent using Hasura Test Provider(https://docs.hasura.io/0.15/manual/notify/sms/hasura-test-provider.html). Before going into production, you will have to [configure Twilio](https://docs.hasura.io/0.15/manual/notify/sms/twilio.html) or [configure MSG91](https://docs.hasura.io/0.15/manual/notify/sms/msg91.html) in `conf/auth.yaml`.*
+
 
 #### Without Hasura APIs
 
